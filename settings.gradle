@@ -1,0 +1,6 @@
+rootProject.name = 'msa-tx-saga'
+
+include('msa-tx-saga-card')
+include('msa-tx-saga-order')
+include('msa-tx-saga-consumer')
+include('msa-tx-saga-store')

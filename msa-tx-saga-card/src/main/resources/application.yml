@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: SAGA-CARD
+
+server:
+  port: 8084

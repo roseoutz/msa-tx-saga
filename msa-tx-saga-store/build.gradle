@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+jar {
+    enabled(false)
+}
+
+group = 'com.saga'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
